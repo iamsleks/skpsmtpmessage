@@ -1,3 +1,8 @@
+# ARC project link the MRC Code
+
+在targets->build phases中修改compiler Flags,是否支持arc。
+添加：-fobjc-arc，就可以让旧项目支持 arc。
+如果想让arc 工程使用 mrc 源文件，则添加 -fno-objc-arc。
 # About skpsmtpmessage
 
 A quick SMTP client for iOS. Fork of [skpsmtpmessage](http://code.google.com/p/skpsmtpmessage/), by Ian Baird.
